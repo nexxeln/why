@@ -7,25 +7,34 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
-	<title>Astro</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+	<title>Why nexxel?</title>
 </head>
 
 <body>
-	<main class="flex flex-col items-center justify-center mx-4">
-		<h1 class="text-[#E8DCFF] text-3xl text-center mt-4">Why?</h1>
+	<main class="flex flex-col items-center justify-center mx-4 md:w-3/6 md:mx-auto">
+		<h1 class="text-[#E8DCFF] text-3xl md:text-5xl text-center mt-4 md:mt-16 font-semibold">Why nexxel?</h1>
 
-		<div class="text-neutral-200">
-			<p>When I was in 5th grade, I heard the word `excel` for the first time at school.
+		<div class="text-neutral-200 antialiased mt-6 text-lg md:text-xl">
+			<p>When I was in 5th grade, I heard the word <a href="https://www.merriam-webster.com/dictionary/excel"
+					target="_blank" rel="noreferrer" class="underline" style="text-decoration-color: #3b82f6;">excel</a>
+				for the first
+				time at
+				school.
 				I
 				liked the sound of it. At that time, a mobile game called <a
-					href="https://supercell.com/en/games/clashofclans/" target="_blank">Clash of Clans</a>
+					href="https://supercell.com/en/games/clashofclans/" target="_blank" rel="noreferrer"
+					class="underline" style="text-decoration-color: #ef4444;">Clash of
+					Clans</a>
 				Everyone had
-				cool usernames except me (I just had Shoubhit16). So I thought let's mix this excelp word up a bit and
+				cool usernames except me (I just had Shoubhit16). So I thought let's mix this excel word up a bit and
 				made
-				it nexxel.
+				it <span class="underline cursor-wait" style="text-decoration-color: #ec4899;">nexxel</span>.
 			</p>
 
-			<p>The name has stuck with me since then and I use it in almost all games I play.</p>
+			<p class="mt-3">The name has stuck with me since then and I use it in almost all games I play.</p>
 		</div>
 	</main>
 </body>
@@ -33,6 +42,13 @@
 <style>
 	body {
 		background-color: #161616;
+		font-family: "Inter", sans-serif;
+	}
+
+	.underline {
+		text-decoration: underline;
+		text-decoration-style: dotted;
+		text-underline-offset: 4px;
 	}
 </style>
 
